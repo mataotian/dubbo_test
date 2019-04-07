@@ -1,0 +1,7 @@
+server:
+  port: 8800
+dubbo:
+  application:
+    name: class_web
+  registry:
+    address: zookeeper://192.168.126.128:2181
